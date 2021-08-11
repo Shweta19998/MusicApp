@@ -1,0 +1,27 @@
+.sidebarOption {
+  color: rgb(153, 153, 153);
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  /* to display icon with text we use fles */
+  display: flex;
+  align-items: center;
+}
+/* it is saying go to sidebar and in hr there */
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+.sidebarOption:hover {
+  color: white;
+}
+.sidebarOpyion__icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sidebarOption > p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
